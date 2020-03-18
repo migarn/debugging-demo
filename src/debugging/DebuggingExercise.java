@@ -35,7 +35,7 @@ public class DebuggingExercise {
                     //swap the elements!
                     temp = array[j-1];
                     array[j-1] = array[j];
-                    array[i] = temp;
+                    array[j] = temp;
                 }
             }
         }
